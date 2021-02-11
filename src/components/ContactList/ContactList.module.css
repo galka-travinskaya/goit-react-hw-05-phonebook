@@ -1,0 +1,35 @@
+.list {
+  padding: 15px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+}
+
+.items:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.text {
+  margin-right: 8px;
+}
+
+.delete_btn {
+  display: block;
+  text-align: center;
+  padding: 4px;
+  max-width: 150px;
+  border: 0;
+  border-radius: 2px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: inherit;
+  background-color: #2196f3;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.delete_btn:hover,
+.delete_btn:focus {
+  background-color: #1976d2;
+}

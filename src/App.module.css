@@ -1,0 +1,23 @@
+.enter {
+  opacity: 1;
+  /* transform: translateY(-100%); */
+}
+
+.exit {
+  opacity: 0;
+  /* transform: translateY(0); */
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section {
+  text-align: center;
+}
+
+.text {
+  margin-top: 25px;
+}
